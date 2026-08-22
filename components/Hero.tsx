@@ -7,7 +7,7 @@ const Hero: React.FC = () => {
   return (
     <section id={SectionId.HOME} className="relative bg-white pt-20 pb-20 sm:pt-24 sm:pb-24 overflow-hidden border-b border-slate-100">
       {/* Decorative background elements - subtle dots */}
-      <div className="absolute inset-0 bg-[radial-gradient(#e2e8f0_1px,transparent_1px)] [background-size:20px_20px] opacity-40"></div>
+      <div className="absolute inset-0 bg-[radial-gradient(#e0d9cb_1px,transparent_1px)] [background-size:20px_20px] opacity-40"></div>
       
       {/* Background Gradient Blob */}
       <div className="absolute top-0 right-0 -mr-20 -mt-20 w-[600px] h-[600px] bg-science-50 rounded-full blur-3xl opacity-50 pointer-events-none"></div>

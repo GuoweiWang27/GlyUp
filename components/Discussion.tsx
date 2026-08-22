@@ -32,7 +32,7 @@ const Discussion: React.FC = () => {
 
                 {/* Point 2: Electronic Interaction */}
                 <div className="bg-slate-50 rounded-2xl p-8 border border-slate-100 hover:shadow-md transition-shadow">
-                    <div className="w-14 h-14 bg-blue-100 text-blue-600 rounded-xl flex items-center justify-center mb-6">
+                    <div className="w-14 h-14 bg-science-100 text-science-500 rounded-xl flex items-center justify-center mb-6">
                         <Zap size={28} />
                     </div>
                     <h3 className="text-xl font-bold text-slate-900 mb-4">2. Electronic Synergy</h3>

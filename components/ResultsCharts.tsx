@@ -31,7 +31,7 @@ const ResultsCharts: React.FC = () => {
                   />
                   <Bar dataKey="value" radius={[4, 4, 0, 0]} barSize={60}>
                     {CONVERSION_DATA.map((entry, index) => (
-                      <Cell key={`cell-${index}`} fill={index === 1 ? '#0ea5e9' : '#94a3b8'} />
+                      <Cell key={`cell-${index}`} fill={index === 1 ? '#8C1515' : '#c9bfae'} />
                     ))}
                   </Bar>
                 </BarChart>
@@ -58,9 +58,9 @@ const ResultsCharts: React.FC = () => {
                     contentStyle={{ borderRadius: '8px', border: 'none', boxShadow: '0 4px 6px -1px rgb(0 0 0 / 0.1)' }}
                   />
                   <Legend verticalAlign="top" height={36}/>
-                  <Bar dataKey="glyceric" name="Glyceric Acid (Target)" fill="#0ea5e9" stackId="a" />
-                  <Bar dataKey="dihydroxy" name="Dihydroxyacetone" fill="#cbd5e1" stackId="a" />
-                  <Bar dataKey="glyoxal" name="Glyoxal" fill="#94a3b8" stackId="a" radius={[4, 4, 0, 0]} />
+                  <Bar dataKey="glyceric" name="Glyceric Acid (Target)" fill="#8C1515" stackId="a" />
+                  <Bar dataKey="dihydroxy" name="Dihydroxyacetone" fill="#D4A76A" stackId="a" />
+                  <Bar dataKey="glyoxal" name="Glyoxal" fill="#a89f8f" stackId="a" radius={[4, 4, 0, 0]} />
                 </BarChart>
               </ResponsiveContainer>
             </div>
