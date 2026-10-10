@@ -4,12 +4,12 @@ export const PAPER_INFO = {
   title: "Upcycling Glycerol",
   subtitle: "Optimizing Pt-Fe/CeO₂ catalysts to convert biodiesel waste into high-value chemicals.",
   fullTitle: "Tuning Pt-Fe Ratio to Optimize the Catalytic Performance of CeO2-Supported Catalysts for Glycerol Oxidation",
-  journal: "Journal of Emerging Investigators",
-  doi: "", // Empty as it is under review
-  status: "Manuscript Under Review",
+  journal: "NHSJS",
+  doi: "", // Accepted and published; DOI to be added.
+  status: "Accepted and published; DOI to be added",
   authors: [
     { name: "Guowei Wang", affiliation: "The High School Affiliated to Beijing Normal University, Beijing, China", role: "First Author" },
-    { name: "Ya Zhang", affiliation: "The High School Affiliated to Beijing Normal University, Beijing, China", role: "Corresponding Author", email: "zhangya@bjsdfz.com" }
+    { name: "Ya Zhang", affiliation: "The High School Affiliated to Beijing Normal University, Beijing, China", role: "Second Author", email: "zhangya@bjsdfz.com" }
   ],
   keywords: ["Pt-Fe", "CeO₂", "Glycerol", "Oxidation", "Catalysis", "Green Chemistry"],
   abstract: "To explore the glycerol oxidation performance of Pt-Fe/CeO₂ catalysts, we prepared samples with varied Pt-Fe ratios. The optimal ratio showed enhanced activity, supporting high-value utilization of biodiesel byproduct glycerol. A Pt:Fe ratio of 1:1 yielded 85.6% conversion and 56.3% glyceric acid selectivity."

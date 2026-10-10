@@ -49,7 +49,7 @@ const Navigation: React.FC = () => {
             aria-label="Go to homepage"
           >
             <div className="flex items-center gap-2 min-w-0">
-              <span className="text-science-600 font-bold text-xl font-serif flex-shrink-0">JEI</span>
+              <span className="text-science-600 font-bold text-xl font-serif flex-shrink-0">NHSJS</span>
               <span className="text-slate-500 text-sm hidden 2xl:block whitespace-nowrap">| Manuscript Presentation</span>
             </div>
           </button>
@@ -78,10 +78,10 @@ const Navigation: React.FC = () => {
               download="Pt-Fe_Catalysts_Research_Paper.pdf"
               onClick={handlePdfClick}
               className="bg-science-600 text-white px-4 py-2 rounded-full text-sm font-medium hover:bg-science-700 transition-colors flex items-center gap-2 flex-shrink-0 whitespace-nowrap focus:outline-none focus:ring-2 focus:ring-science-500 focus:ring-offset-2"
-              aria-label="Download research paper PDF"
+              aria-label="Download working manuscript PDF"
             >
               <FileDown size={16} aria-hidden="true" />
-              Download PDF
+              Manuscript PDF
             </a>
           </div>
 
@@ -121,7 +121,7 @@ const Navigation: React.FC = () => {
                role="menuitem"
              >
               <FileDown size={18} aria-hidden="true" />
-              Download PDF
+              Manuscript PDF
             </a>
           </div>
         </div>

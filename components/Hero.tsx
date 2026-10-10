@@ -170,11 +170,14 @@ const Hero: React.FC = () => {
         <div className="mt-16 pt-8 max-w-2xl mx-auto border-t border-slate-100 text-center">
              <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-slate-50 text-slate-400 text-xs font-bold tracking-widest uppercase mb-3">
                 <FileText size={12} />
-                Original Manuscript Title
+                Working Manuscript Title
              </div>
              <h3 className="text-slate-500 font-serif italic text-base leading-snug px-4">
                 "{PAPER_INFO.fullTitle}"
              </h3>
+             <p className="mt-3 text-sm text-slate-500">
+                This research presentation and its PDF reflect the working manuscript. The final article link, publication details and DOI will be added.
+             </p>
              
              {/* Keywords */}
              <div className="mt-4 flex flex-wrap justify-center gap-2 opacity-60">
